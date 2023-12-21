@@ -1,6 +1,6 @@
 # Predicting_Annual_Variability_Renewable_Energy
 
-EAEE 4000 (ML for Environmental Engineering): A project by Avikal Sagar and Neha Gosula at Columbia University that involves forecasting the total electricity demand load based on climatic conditions and geographical regions, and further predicting the generation of electricity by each fuel type (renewable/non-renewable) that would cater to the total demand. Flow of Python notebooks:
+EAEE 4000 (ML for Environmental Engineering), Group 3: A project by Avikal Sagar and Neha Gosula at Columbia University that involves forecasting the total electricity demand load based on climatic conditions and geographical regions, and further predicting the generation of electricity by each fuel type (renewable/non-renewable) that would cater to the total demand. Flow of Python notebooks:
 
 1. Merging SPP data: involves merging all the SPP Generation Mix datasets for the Southwest US from 2018 to 2022. Each of them was extracted from: https://marketplace.spp.org/file-browser-api/download/generation-mix-historical?path=%2FGenMix_2019.csv by replacing the year in the link
 2. Averaging SPP data: involves performing data transformation from a 15-min interval on to an hourly basis while also: handling dates and time in the Pandas datetime format, removing duplicates, sorting in chornological order and some basic data cleaning processes
